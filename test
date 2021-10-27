@@ -1,5 +1,5 @@
 SELECT *
     FROM `cityblock-analytics.abs_medical.abs_diagnoses`
-    where patientId in unnest(@patientId) 
+    where memberIdentifier in unnest(@patientId) 
     LIMIT 15
     
