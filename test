@@ -1,0 +1,3 @@
+SELECT *
+    FROM `cityblock-analytics.abs_medical.abs_diagnoses`
+    LIMIT 15
